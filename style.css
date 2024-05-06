@@ -1,0 +1,335 @@
+#container {
+    width: 100%;
+  }
+  @font-face { font-family: WorkSans; src: url('http://localhost/petshop/font/WorkSans-Regular.TTF'); } 
+  @font-face { font-family: WorkSans-bold; src: url('http://localhost/petshop/font/WorkSans-Bold.TTF'); } 
+  @font-face { font-family: WorkSans-medium; src: url('http://localhost/petshop/font/WorkSans-Medium.TTF'); } 
+  .logo img{
+    width: 50px;
+    
+
+  }
+  a{
+    text-decoration: none;
+    font-family: WorkSans-Medium;
+    color:black;
+  
+  }
+a:hover{
+  color:blue
+}
+
+
+  body {
+    padding: 0px;
+    margin: 0px;
+    font-family: WorkSans;
+  }
+
+  p {
+    font-family: WorkSans;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+}
+
+  .main-nav {
+    background:#f8ad9d ;
+      display: flex;
+    width: 100%;
+    padding: 20px;
+  }
+  .logo {
+    width: 20%;
+  }
+
+  .menu-nav {
+    width: 80%;
+    text-align: right;
+  }
+  ul {
+    display: inline-flex;
+    gap: 54px;
+  }
+
+  li {
+    list-style: none !important;
+  }
+
+  .hero-banner {
+    height: 650px;
+    background: #eee;
+  }
+
+  h1 {
+    margin: 0px 0px 40px 0;
+    font-size: 55px;
+    font-family: WorkSans-bold;
+  }
+
+  h2 {
+    font-family: WorkSans-Medium;
+    font-size: 45px;
+    line-height: 1.2;
+  }
+
+  .hero-banner {
+    height: 650px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff url(images/heroBanner.jpg) no-repeat center center;
+    background-size: cover;
+  }
+
+  #services {
+    display: flex;
+    gap: 40px;
+    width: 90%;
+
+  }
+
+  #about-us {
+    gap: 40px;
+    margin: 75px 0 75px 0;
+    display: flex;
+}
+
+  .about-content, .about-image {
+    width: 50%;
+  }
+
+  img {
+    width: 100%;
+  }
+
+  .about-content {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  
+  #service-items {
+    width: 100%;
+    padding: 30px;
+    background: #fbfbfb;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+  #services-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.booknow{
+  display: block;
+  padding: 20px 40px;
+  text-decoration: none;
+  font-size: 18px;
+  background-color: #f8ad9d;
+  border-radius: 50px;
+  color: black  ;
+  font-family: WorkSans-Medium;
+  margin-top: 45px;
+
+}
+
+  .servies-icons img{
+    width: 75px;
+  }
+
+  .testimonial-section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #content {
+    width: 1240px;
+    max-width: 100%;
+    margin: 40px auto 40px auto;
+  }
+
+  #testimonial-section {
+    padding: 75px 0 75px 0;
+    background: #f4f4f4;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .testimonial-image img {
+    border-radius: 500px !important;
+    width: 150px;
+    height: 150px;
+    object-fit: cover !important;
+}
+
+  #cta-items {
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    height: 368px;
+    padding: 75px 0;
+  }
+  .cta-content p {
+    width: 85%;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .cta-content h2 {
+    width: 85%;
+  }
+  .cta-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
+  .cta-form {
+    background-color: rgb(242, 239, 239);
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 45px;
+    margin: 45px;
+  }
+  
+
+  .footer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0;
+    background: #efcdcd;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 26px;
+}
+
+.footer-menu a {
+  line-height: 1.6;
+  text-decoration: none;
+  font-family: 'WorkSans-medium';
+}
+
+
+.footer-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 45px 0;
+  background: #efcdcd;
+}
+
+.footer-menu .menu-nav ul {
+  display: block;
+  text-align: left;
+}
+
+#cta-section {
+  background: #efefef url(images/cta-bg.jpg) no-repeat center center;
+  background-size: cover;
+  display: flex;
+}
+  
+.footer-social img{
+  width: 20px;
+  margin-right: 10px;
+}
+
+.footer-social a{
+  margin: 1px 0px;
+  display: block;
+}
+
+#hero {
+  height: 100%;
+  background: url(http://localhost/petshop/images/heroBanner.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  padding: 75px 0;
+}
+
+.contact-form {
+  width: 34%;
+  margin: 0 auto;
+  padding: 30px;
+  background: rgb(228, 227, 227);
+}
+
+label, select, textarea {
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 10px;
+}
+
+label {
+  width: 200px;
+}
+
+select {
+  width: 200px;
+}
+
+button {
+  background: pink !important;
+  font-family: 'WorkSans-bold';
+  border: none;
+  padding: 30px;
+  border-radius: 40px;
+}
+
+#popup-content{
+  text-align: center;
+}
+
+.login-form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 600px;
+}
+
+.login-container {
+  flex: 1;
+  display: flex;
+  padding: 20px;
+  background-color: #f0f0f0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} 
+
+li:hover {
+  background: darkgray;
+}

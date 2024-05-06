@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="icon" href="http://localhost/petshop/images/samoyed.png">
+    
+    <title>Furfix</title>
+    <script>
+        var popupWindow;
+      
+        function openPopup() {
+
+          var left = (screen.width - 600) / 2;
+          var top = (screen.height - 400) / 2;
+      
+
+          popupWindow = window.open("popup.html", "_blank", "width=600,height=400,left=" + left + ",top=" + top);
+        }
+      </script>
+    
+<div id ="wrapper">
+    <div id="container">
+        <div class="header">
+            <div class="main-nav">
+
+            <div class="logo">
+                <a href="http://localhost/petshop/index.html"><img src="http://localhost/petshop/images/samoyed.png"></a>
+            </div>
+
+            <div class="menu-nav">
+
+                <ul>
+                    <li><a href="http://localhost/petshop/">Home</a></li>
+                    <li><a href="http://localhost/petshop/index.html#about-us">About</a></li>
+                    <li><a href="http://localhost/petshop/index.html#services-section">Our Services</a></li>
+                    <li><a href="http://localhost/petshop/index.html#cta-section">Contact</a></li>
+
+                </ul>
+
+            </div>
+
+            </div>
+
+        </div>
+        <div id="hero">
+
+            <div class="contact-form">
+                <h2>Book an Appointment</h2>
+
+                <form action="submit_reservation.php" method="post">
+                  <label for="name">Name:</label>
+                  <input type="text" id="name" name="name" required><br>
+
+                  <label for="name">Pet Name:</label>
+                  <input type="text" id="Pet Name" name="Pet Name" required><br>
+
+                  <label for="service">Breed:</label>
+                  <select id="Breed" name="Breed">
+                    <option value="Breed">- - - Select - - -</option>
+                    <option value="Cat">Cat</option>
+                    <option value="Dog">Dog</option>
+                  </select> <br>
+
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" required><br>
+                
+                  <label for="phone">Phone:</label>
+                  <input type="text" id="phone" name="phone" required><br>
+                
+                  <label for="date">Date:</label>
+                  <input type="date" id="date" name="date" required><br>
+                
+                  <label for="time">Time:</label>
+                  <input type="time" id="time" name="time" required><br>
+                
+                  <label for="service">Service:</label>
+                  <select id="service" name="service">
+                    <option value="Select Service">- - - Select - - -</option>
+                    <option value="Essential Grooming">Essential Grooming</option>
+                    <option value="Complete Grooming Package">Complete Grooming Package</option>
+                    <option value="Luxury Spa Treatment">Luxury Spa Treatment</option>
+                  </select><br>
+                
+                  <label for="special-requests">Special Requests:</label>
+                  <textarea id="special-requests" name="special-requests" rows="4"></textarea><br>
+                
+                  <button onclick="openPopup()">Book Now</button>
+                </form>
+                </div>
+
+
+        </div>
+
+        </div>
+        <div id="footer">
+            <div class="footer-content">
+        
+                <div class="footer-menu">
+                    <div class="menu-nav">
+        
+                        <ul>
+                            <li><a href="http://localhost/petshop/">Home</a></li>
+                            <li><a href="#about-us">About</a></li>
+                            <li><a href="#services-section">Our Services</a></li>
+                            <li><a href="#cta-section">Contact</a></li>
+                            <li><a href="http://localhost/petshop/login.html">Admin</a></li>
+        
+                        </ul>   
+        
+                    </div>
+                </div>
+        
+                <div class="footer-logo">
+                    <div class="logo">
+                        <img src="http://localhost/petshop/images/samoyed.png">
+                    </div>
+        
+                    <div class="footer-contact-info">
+                        062 859 8965<br>
+                        customer-service@furfix.com<br>
+                        Culianan, Zamboanga City
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <h3>Follow Us</h3>
+                    <a href="https://www.Facebook.com" class="social-item"><img src="http://localhost/petshop/images/social-media.png">Facebook</a></br>
+                    <a href="https://www.instagram.com" class="social-item"><img src="http://localhost/petshop/images/instagram.png">instagram</a></br>
+                    <a href="https://www.twitter.com" class="social-item"><img src="http://localhost/petshop/images/Twitter.png">Twtitter/X</a><br>
+                </div>
+                
+            
+            </div>
+            
+        
+        </div>
+<body>
+    
+</body>
+</html>
